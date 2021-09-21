@@ -60,9 +60,10 @@ position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     display: inline-block;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 150px;
+    z-index: 100;
 }
 
 #one h2{
@@ -75,9 +76,10 @@ position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     display: inline-block;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 100px;
+    z-index: 100;
 }
 
 #two h2{
@@ -90,12 +92,14 @@ position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     display: inline-block;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 50px;
+    z-index: 100;
 }
 
 #three h2{
     text-align: center;
 }
+
     
